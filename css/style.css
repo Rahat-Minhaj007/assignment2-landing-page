@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
+    list-style: none;
 }
 
 .header-navigation {
@@ -100,7 +101,7 @@
     text-decoration: none;
     border-radius: 25px;
     background-color: rgb(255, 255, 255);
-    color: black;
+    color: #ffeb34;
     margin: 0px 10px;
     padding: 12px 5px;
     display: inline-block;
@@ -111,6 +112,20 @@
 
 .services {
     padding: 80px 0px;
+}
+
+.about {
+    padding-top: 80px;
+}
+
+.about h1 {
+    text-align: center;
+    color: #344750;
+    font-size: 70px;
+    text-decoration-line: underline;
+    text-decoration-color: #344750;
+    text-decoration-style: solid;
+    text-underline-offset: 30px;
 }
 
 .services h1 {
@@ -359,6 +374,183 @@
     text-align: center;
     font-weight: 700;
     font-size: 14px;
+}
+
+.molly-order {
+    background: linear-gradient(#344750, #344750);
+    height: 92vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.molly-order-text {
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.molly-order-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.about-content h2 {
+    color: #FFE501;
+}
+
+.about-content h3,
+p {
+    color: #344750;
+}
+
+#about-header-paragraph {
+    color: #344750;
+    padding: 70px 0px;
+    text-align: center;
+}
+
+.about-fist-img img {
+    height: 460px;
+}
+
+.about-second-img img {
+    height: 460px;
+    opacity: 0.3;
+}
+
+.skill {
+    background: linear-gradient(#344750, #344750);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 90px 0px;
+}
+
+.skill h2 {
+    color: #FFE501
+}
+
+.about-company p {
+    text-align: justify;
+    color: #fff;
+}
+
+.skill-progress {
+    width: 650px;
+    margin: 0px auto;
+}
+
+.skill-progress li {
+    margin: 5px 0;
+}
+
+.bar {
+    background: white;
+    display: block;
+    height: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 2px 0px;
+    overflow: hidden;
+}
+
+.bar span {
+    height: 12px;
+    float: left;
+    background: #FFE501;
+}
+
+.html {
+    width: 80%;
+}
+
+.bootstrap {
+    width: 70%;
+}
+
+.js {
+    width: 85%;
+}
+
+.photo {
+    width: 60%;
+}
+
+.skill-progress li h4 {
+    color: #fff;
+    padding: 10px 0px;
+}
+
+.about-company {
+    padding-right: 180px !important;
+}
+
+.blog h1 {
+    text-align: center;
+    color: #344750;
+    font-size: 70px;
+    padding-top: 80px;
+    text-decoration-line: underline;
+    text-decoration-color: #344750;
+    text-decoration-style: solid;
+    text-underline-offset: 30px;
+}
+
+#blog-header-paragraph {
+    color: #344750;
+    padding: 70px 0px;
+    text-align: center;
+}
+
+.blog-first-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.blog-first-row .card {
+    width: 42rem;
+    height: 32rem;
+    box-shadow: 10px 10px 40px rgb(226, 226, 226);
+}
+
+.blog-first-row .card img {
+    width: 100%;
+    height: 16rem;
+}
+
+.blog-first-row .card .card-body {
+    padding: 25px 25px;
+}
+
+.card-title {
+    color: #FFE501;
+}
+
+.writer {
+    color: #FFE501;
+}
+
+.card .card-body h4 {
+    display: flex;
+    padding-top: 20px;
+    justify-content: flex-end;
+    color: #FFE501;
 }
 
 @media all and (max-width:400px) {
