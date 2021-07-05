@@ -77,6 +77,7 @@
 
 #header-first-paragraph {
     font-size: 18px;
+    color: #fff;
 }
 
 .header-main-text h1 {
@@ -91,7 +92,7 @@
     color: #ffeb34;
 }
 
-#molly {
+.molly {
     color: #ffeb34;
     font-weight: bold;
 }
@@ -523,9 +524,20 @@ p {
     justify-content: space-evenly;
 }
 
+.blog-second-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .blog-first-row .card {
     width: 42rem;
     height: 32rem;
+    box-shadow: 10px 10px 40px rgb(226, 226, 226);
+}
+
+.blog-second-row .card2 {
+    width: 22rem;
     box-shadow: 10px 10px 40px rgb(226, 226, 226);
 }
 
@@ -534,7 +546,15 @@ p {
     height: 16rem;
 }
 
+.blog-second-row .card2 img {
+    width: 100%;
+}
+
 .blog-first-row .card .card-body {
+    padding: 25px 25px;
+}
+
+.blog-second-row .card2 .card-body2 {
     padding: 25px 25px;
 }
 
@@ -551,6 +571,181 @@ p {
     padding-top: 20px;
     justify-content: flex-end;
     color: #FFE501;
+}
+
+.card2 .card-body2 h4 {
+    display: flex;
+    padding-top: 20px;
+    justify-content: flex-end;
+    color: #FFE501;
+}
+
+.blog-button {
+    padding-top: 85px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog-btn a {
+    width: 150px;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: #FFE501;
+    color: #fff;
+    margin: 0px 8px;
+    padding: 12px 2px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.subscribe {
+    background: linear-gradient(#FFE501, #FFE501);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.subscribe h1 {
+    color: #fff;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.subscribe-input {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.subscribe-input .subscribe-btn {
+    padding-left: 40px;
+}
+
+.subscribe-input input {
+    width: 370px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 15px;
+}
+
+.subscribe-btn a {
+    width: 150px;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    margin: 0px 8px;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.contact {
+    background: linear-gradient(rgba(10, 10, 10, 0.3), #232b2f), url("../image/contact.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact h1 {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    padding-top: 80px;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-decoration-style: solid;
+    text-underline-offset: 30px;
+}
+
+#contact-header-paragraph {
+    color: white;
+    padding: 70px 0px;
+    text-align: center;
+}
+
+.contact-input {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-input input {
+    height: 55px;
+    width: 370px;
+    margin: 0px 15px;
+    border: 1px solid #fff;
+    outline: none;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 7px;
+    border-radius: 11px;
+}
+
+.contact-textarea {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-textarea .textarea {
+    margin-top: 30px;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 20px;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.contact-btn a {
+    width: 150px;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    margin: 0px 8px;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    padding: 40px;
+    background: linear-gradient(#192329, #192329);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-icon i {
+    font-size: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+    color: black;
+    margin: 0px 8px;
 }
 
 @media all and (max-width:400px) {
