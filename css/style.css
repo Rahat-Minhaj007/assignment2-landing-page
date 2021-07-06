@@ -221,9 +221,10 @@
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
-    padding-top: 100px
+    padding-top: 100px;
+    overflow: hidden;
 }
 
 .make-web-design-text h1 {
@@ -888,5 +889,17 @@ p {
         color: white;
         padding: 20px;
         margin: 4px 14px;
+    }
+}
+
+@media all and (max-width:1530px) {
+    .line2:before {
+        display: none;
+    }
+    .line3:before {
+        display: none;
+    }
+    .line4:before {
+        display: none;
     }
 }
