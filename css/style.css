@@ -330,7 +330,6 @@
 
 .video-section {
     background: linear-gradient(#FFE501, #FFE501);
-    height: 40vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -379,7 +378,6 @@
 
 .molly-order {
     background: linear-gradient(#344750, #344750);
-    height: 92vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -521,23 +519,24 @@ p {
 .blog-first-row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .blog-second-row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .blog-first-row .card {
-    width: 42rem;
-    height: 32rem;
+    width: 39rem;
     box-shadow: 10px 10px 40px rgb(226, 226, 226);
+    margin: 6px 20px;
 }
 
 .blog-second-row .card2 {
-    width: 22rem;
+    width: 25rem;
+    margin: 6px 20px;
     box-shadow: 10px 10px 40px rgb(226, 226, 226);
 }
 
@@ -748,6 +747,11 @@ p {
     margin: 0px 8px;
 }
 
+.iframe {
+    height: 350px;
+    width: 600px;
+}
+
 @media all and (max-width:400px) {
     nav ul {
         flex-direction: column;
@@ -789,5 +793,11 @@ p {
         height: 330px;
         width: 330px;
         padding: 15px 15px;
+    }
+    .molly-order-img {
+        width: 200px;
+    }
+    .iframe {
+        width: 340px;
     }
 }
