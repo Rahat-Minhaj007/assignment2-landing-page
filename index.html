@@ -17,17 +17,17 @@
         <section class="header-navigation">
             <nav>
                 <ul>
-                    <li>HOME</li>
-                    <li>SERVICES</li>
-                    <li>PORTFOLIO</li>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#service">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
                     <li id="nav-logo"><img src="./image/m.ico" alt="" /></li>
-                    <li>ABOUT</li>
-                    <li>BLOG</li>
-                    <li>CONTACT</li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#blog">BLOG</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
         </section>
-        <section class="header-main">
+        <section class="header-main" id="home">
             <div class="header-main-text">
                 <p id="header-first-paragraph">
                     Hello,we are <span class="molly">Molly</span> and we create
@@ -47,7 +47,7 @@
         </section>
     </header>
     <main>
-        <div class="services">
+        <div class="services" id="service">
             <h1>SERVICES</h1>
 
             <p id="services-header-paragraph">
@@ -147,7 +147,7 @@
                 <a href="">GET STARTED</a>
             </div>
         </div>
-        <div class="portfolio">
+        <div class="portfolio" id="portfolio">
             <h1>PORTFOLIO</h1>
             <p id="portfolio-header-paragraph">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat perspiciatis eligendi incidunt consequatur vero <br /> culpa illo accusantium, quo maxime earum.
@@ -239,7 +239,7 @@
             </div>
         </div>
 
-        <div class="about">
+        <div class="about" id="about">
             <h1>ABOUT US</h1>
 
             <p id="about-header-paragraph">
@@ -309,7 +309,7 @@
             </div>
         </div>
 
-        <div class="blog">
+        <div class="blog" id="blog">
             <h1>BLOG</h1>
             <p id="blog-header-paragraph">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat perspiciatis eligendi incidunt consequatur vero <br /> culpa illo accusantium, quo maxime earum.
@@ -411,7 +411,7 @@
             </div>
         </div>
 
-        <div class="contact">
+        <div class="contact" id="contact">
             <h1>CONTACT US</h1>
 
             <p id="contact-header-paragraph">
@@ -419,15 +419,15 @@
             </p>
             <div class="contact-form">
                 <div class="contact-input">
-                    <input type="text">
-                    <input type="text">
+                    <input type="text" name="name" placeholder="Your Name">
+                    <input type="text" name="email" placeholder="Your Email">
 
-                    <input type="text">
+                    <input type="text" name="subject" placeholder="Subject">
 
 
                 </div>
                 <div class="contact-textarea">
-                    <textarea class="textarea" rows="10" cols="192"></textarea>
+                    <textarea class="textarea" rows="10" cols="192" placeholder="Enter Maessage Here..."></textarea>
 
 
                 </div>

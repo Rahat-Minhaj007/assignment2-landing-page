@@ -30,6 +30,12 @@
     text-align: center;
 }
 
+.header-navigation nav ul li a {
+    color: grey;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .portfolio-nav {
     color: grey;
     font-weight: bold;
@@ -846,21 +852,12 @@ p {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-top: 100px
     }
     .get-started {
         background: linear-gradient(#FFE501, #FFE501);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        padding-left: 30px;
     }
     .portfolio h1 {
         text-align: center;
@@ -890,5 +887,6 @@ p {
         background: rgba(0, 0, 0, 0.3);
         color: white;
         padding: 20px;
+        margin: 4px 14px;
     }
 }
