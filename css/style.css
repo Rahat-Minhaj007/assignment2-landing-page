@@ -461,11 +461,7 @@ p {
 
 .skill-progress {
     width: 650px;
-    margin: 0px auto;
-}
-
-.skill-progress li {
-    margin: 5px 0;
+    margin: 0px 20px;
 }
 
 .bar {
@@ -506,7 +502,7 @@ p {
 }
 
 .about-company {
-    padding-right: 180px !important;
+    margin: 0px 20px;
 }
 
 .blog h1 {
@@ -810,7 +806,7 @@ p {
         width: 20%;
     }
     .iframe {
-        width: 340px;
+        width: 334px;
     }
     .header-main {
         background: linear-gradient(rgba(59, 74, 90, 0.342), #344750), url("../image/banner.png");
@@ -874,5 +870,25 @@ p {
         text-decoration-color: #344750;
         text-decoration-style: solid;
         text-underline-offset: 30px;
+    }
+    .contact-input input {
+        height: 55px;
+        width: 370px;
+        margin: 5px 15px;
+        border: 1px solid #fff;
+        outline: none;
+        background: rgba(0, 0, 0, 0.3);
+        color: white;
+        padding: 7px;
+        border-radius: 11px;
+    }
+    .contact-textarea .textarea {
+        margin-top: 30px;
+        border: 1px solid #fff;
+        outline: none;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.3);
+        color: white;
+        padding: 20px;
     }
 }
