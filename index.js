@@ -111,7 +111,7 @@ moreBlogBtn.addEventListener("click", (e) => {
 
 // Slider
 
-photos = ["../image/banner.png", "./image/banner4.jpg", "./image/banner2.jpg"];
+photos = ["./image/banner.png", "./image/banner4.jpg", "./image/banner2.jpg"];
 let i = 0;
 for (let i = 0; i < photos.length; i++) {
     const headerDot = document.querySelectorAll(".header-main-dot")[i];
