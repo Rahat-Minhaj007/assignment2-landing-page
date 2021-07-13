@@ -149,10 +149,10 @@ ul li {
     display: block;
     width: 150px;
     height: 5px;
-    background: #ffeb34;
+    background: #FFE501;
     position: absolute;
     left: 550px;
-    top: 85px;
+    top: 120px;
 }
 
 .line3:before {
@@ -160,10 +160,10 @@ ul li {
     display: block;
     width: 140px;
     height: 5px;
-    background: #ffeb34;
+    background: #FFE501;
     position: absolute;
     left: 885px;
-    top: 85px;
+    top: 120px;
 }
 
 .line4:before {
@@ -171,10 +171,10 @@ ul li {
     display: block;
     width: 144px;
     height: 5px;
-    background: #ffeb34;
+    background: #FFE501;
     position: absolute;
     left: 1210px;
-    top: 85px;
+    top: 120px;
 }
 
 .service1 {
@@ -184,19 +184,20 @@ ul li {
 }
 
 .service-icon {
-    background-color: #FFE501;
-    color: #fff;
-    margin: 0px 10px;
-    padding: 0px 20px;
-    padding-top: 55px;
     text-align: center;
-    border-radius: 50%;
     font-size: 30px;
     height: 90px;
 }
 
+.service-icon i {
+    background-color: #FFE501;
+    color: black;
+    padding: 90px;
+    border-radius: 50%;
+}
+
 .service-text {
-    padding-top: 35px;
+    padding-top: 135px;
 }
 
 .make-web-design {
