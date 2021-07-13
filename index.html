@@ -14,20 +14,22 @@
 
 <body>
     <header class="header">
-        <section class="header-navigation">
-            <nav>
-                <ul>
+        <section class="nav-bar">
+            <i class="fab fa-medium-m logo"></i>
+            <span id="hamburger">&#9776;</span>
+            <div class="menu-center">
+                <ul id="nav-toggle">
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#service">SERVICES</a></li>
                     <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li id="nav-logo"><img src="./image/m.ico" alt="" /></li>
+                    <li id="nav-logo"><i class="fab fa-medium-m"></i></li>
                     <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#blog">BLOG</a></li>
+                    <li><a href="#blog-section">BLOG</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
-            </nav>
+            </div>
         </section>
-        <section class="header-main" id="home">
+        <section class="header-main" id="header-main" id="home">
             <div class="header-main-text">
                 <p id="header-first-paragraph">
                     Hello,we are <span class="molly">Molly</span> and we create
@@ -41,7 +43,7 @@
                     <a href="">GET STARTED</a>
                 </div>
                 <div>
-                    <h2><span class="header-main-first-dot">.</span> . .</h2>
+                    <h2><span class="header-main-dot">.</span> <span class="header-main-dot">.</span> <span class="header-main-dot">.</span></h2>
                 </div>
             </div>
         </section>
@@ -156,43 +158,177 @@
             <div class="portfolio-nav">
                 <nav>
                     <ul>
-                        <li>ALL</li>
-                        <li>WEB DESIGN</li>
-                        <li>GRAPHICS DESIGN</li>
-                        <li>PHOTOGRAPHY</li>
-                        <li>APPS</li>
+                        <li id="portfolio-all-images">ALL</li>
+                        <li id="portfolio-web-images">WEB DESIGN</li>
+                        <li id="portfolio-graphics-images">GRAPHICS DESIGN</li>
+                        <li id="portfolio-photography-images">PHOTOGRAPHY</li>
+                        <li id="portfolio-apps-images">APPS</li>
                     </ul>
                 </nav>
             </div>
-            <div class="portfolio-images">
-                <div class="portfolio-image">
-                    <img src="./image/img1.jpg" alt="" />
-                </div>
-                <div class="portfolio-image">
-                    <img src="./image/img2.jpg" alt="" />
-                </div>
-                <div class="portfolio-image">
-                    <img src="./image/img3.jpg" alt="" />
-                </div>
-                <div class="portfolio-image">
-                    <img src="./image/img4.jpg" alt="" />
-                </div>
-                <div class="portfolio-image">
-                    <img src="./image/img5.jpg" alt="" />
-                </div>
-                <div class="portfolio-image">
-                    <img src="./image/img6.jpg" alt="" />
-                </div>
-                <div class="portfolio-image">
-                    <img src="./image/img7.jpg" alt="" />
-                </div>
-                <div class="portfolio-image">
-                    <img src="./image/img8.jpg" alt="" />
-                </div>
-                <div class="portfolio-image">
-                    <img src="./image/img9.jpg" alt="" />
+            <!-- part 1 -->
+            <div id="portfolio-display1">
+                <div class="portfolio-images">
+                    <div class="portfolio-image">
+                        <img src="./image/img1.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img2.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img3.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img4.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img5.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img6.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img7.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img8.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img9.jpg" alt="" />
+                    </div>
                 </div>
             </div>
+            <!-- part 2 -->
+            <div id="portfolio-display2">
+                <div class="portfolio-images">
+                    <div class="portfolio-image">
+                        <img src="./image/img10.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img11.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img12.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img13.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img14.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img15.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img16.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img17.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img18.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- part 3 -->
+            <div id="portfolio-display3">
+                <div class="portfolio-images">
+                    <div class="portfolio-image">
+                        <img src="./image/img17.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img18.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img19.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img1.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img8.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img10.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img11.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img15.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img7.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+            <!-- part 4-->
+            <div id="portfolio-display4">
+                <div class="portfolio-images">
+                    <div class="portfolio-image">
+                        <img src="./image/img20.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img21.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img23.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img13.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img14.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img15.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img16.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img17.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img18.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- part 5-->
+            <div id="portfolio-display5">
+                <div class="portfolio-images">
+                    <div class="portfolio-image">
+                        <img src="./image/img22.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img24.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img25.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img26.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img28.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img1.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img3.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img5.jpg" alt="" />
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="./image/img9.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+
             <div class="portfolio-button">
                 <div class="portfolio-btn">
                     <a href="">SHOW MORE</a>
@@ -260,12 +396,11 @@
                         cumque, <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo non facere explicabo error? Optio numquam pariatur <br /><br /> ex architecto eveniet neque iste ullam vitae dolorem repudiandae maiores. <br /> quas,
                         perspiciatis facere harum tempore voluptatem alias veritatis cupiditate? Quos similique reiciendis repellat
                     </p>
-                    <br>
+                    <br />
                     <div class="footer-icon">
                         <i class="fab fa-facebook"></i>
                         <i class="fab fa-twitter"></i>
                         <i class="fab fa-linkedin"></i>
-
                     </div>
                 </div>
                 <div class="about-second-img">
@@ -309,7 +444,8 @@
             </div>
         </div>
 
-        <div class="blog" id="blog">
+
+        <div class="blog" id="blog-section">
             <h1>BLOG</h1>
             <p id="blog-header-paragraph">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat perspiciatis eligendi incidunt consequatur vero <br /> culpa illo accusantium, quo maxime earum.
@@ -325,138 +461,262 @@
                         <br />
                         <p class="card-text">
                             Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
-                        </p>
-                        <h4>READ MORE..</h4>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="./image/img4.jpg" alt="Card image cap" />
-                    <div class="card-body">
-                        <h2 class="card-title">Simple Blog Title</h2>
-                        <br />
-                        <p>Lorem ipsum <span class="writer">dolor sit.</span></p>
-                        <br />
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
-                        </p>
-                        <h4>READ MORE..</h4>
-                    </div>
-                </div>
+                            the bulk of the card's content.<span class="moreText">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Sunt laborum possimus suscipit aspernatur, ex fugit ea non
+                  ullam delectus! Facere.dolor sit amet consectetur adipisicing
+                  elit. Sunt laborum possimus suscipit aspernatur, ex fugit ea
+                  non ullam delectus! Facere.</span
+                >
+              </p>
+              <h4 class="read-more-btn">READ MORE..</h4>
             </div>
-
-            <br />
-            <br />
-            <div class="blog-second-row">
-                <div class="card2">
-                    <img class="card-img-top" src="./image/img6.jpg" alt="Card image cap" />
-                    <div class="card-body2">
-                        <h2 class="card-title">Simple Blog Title</h2>
-                        <br />
-                        <p>Lorem ipsum <span class="writer">dolor sit.</span></p>
-                        <br />
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
-                        </p>
-                        <h4>READ MORE..</h4>
-                    </div>
-                </div>
-                <div class="card2">
-                    <img class="card-img-top" src="./image/img7.jpg" alt="Card image cap" />
-                    <div class="card-body2">
-                        <h2 class="card-title">Simple Blog Title</h2>
-                        <br />
-                        <p>Lorem ipsum <span class="writer">dolor sit.</span></p>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="./image/img4.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h2 class="card-title">Simple Blog Title</h2>
+              <br />
+              <p>Lorem ipsum <span class="writer">dolor sit.</span></p>
                         <br />
                         <p class="card-text">
                             Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
-                        </p>
-                        <h4>READ MORE..</h4>
-                    </div>
-                </div>
-                <div class="card2">
-                    <img class="card-img-top" src="./image/img9.jpg" alt="Card image cap" />
-                    <div class="card-body2">
-                        <h2 class="card-title">Simple Blog Title</h2>
-                        <br />
-                        <p>Lorem ipsum <span class="writer">dolor sit.</span></p>
-                        <br />
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
-                        </p>
-                        <h4>READ MORE..</h4>
-                    </div>
-                </div>
+                            the bulk of the card's content..<span class="moreText">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Sunt laborum possimus suscipit aspernatur, ex fugit ea non
+                  ullam delectus! Facere.dolor sit amet consectetur adipisicing
+                  elit. Sunt laborum possimus suscipit aspernatur, ex fugit ea
+                  non ullam delectus! Facere.</span
+                >
+              </p>
+              <h4 class="read-more-btn">READ MORE..</h4>
             </div>
-
-            <div class="blog-button">
-                <div class="blog-btn">
-                    <a href="">SHOW MORE</a>
-                </div>
-            </div>
+          </div>
         </div>
 
-        <div class="subscribe">
-            <h1>SUBSCRIBE TO OUR NEWSLETTER</h1>
-            <div class="subscribe-input">
-                <input type="text" name="subscribe" placeholder="Please subscribe" />
-
-                <div class="subscribe-btn">
-                    <a href="">SUBSCRIBE</a>
-                </div>
+        <br />
+        <br />
+        <div class="blog-second-row">
+          <div class="card2">
+            <img
+              class="card-img-top"
+              src="./image/img6.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body2">
+              <h2 class="card-title">Simple Blog Title</h2>
+              <br />
+              <p>Lorem ipsum <span class="writer">dolor sit.</span></p>
+                        <br />
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up
+                            the bulk of the card's content.<span class="moreText">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Sunt laborum possimus suscipit aspernatur, ex fugit ea non
+                  ullam delectus! Facere.dolor sit amet consectetur adipisicing
+                  elit. Sunt laborum possimus suscipit aspernatur, ex fugit ea
+                  non ullam delectus! Facere.</span
+                >
+              </p>
+              <h4 class="read-more-btn">READ MORE..</h4>
             </div>
+          </div>
+          <div class="card2">
+            <img
+              class="card-img-top"
+              src="./image/img7.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body2">
+              <h2 class="card-title">Simple Blog Title</h2>
+              <br />
+              <p>Lorem ipsum <span class="writer">dolor sit.</span></p>
+                        <br />
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up
+                            the bulk of the card's content.<span class="moreText">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Sunt laborum possimus suscipit aspernatur, ex fugit ea non
+                  ullam delectus! Facere.dolor sit amet consectetur adipisicing
+                  elit. Sunt laborum possimus suscipit aspernatur, ex fugit ea
+                  non ullam delectus! Facere.</span
+                >
+              </p>
+              <h4 class="read-more-btn">READ MORE..</h4>
+            </div>
+          </div>
+          <div class="card2">
+            <img
+              class="card-img-top"
+              src="./image/img9.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body2">
+              <h2 class="card-title">Simple Blog Title</h2>
+              <br />
+              <p>Lorem ipsum <span class="writer">dolor sit.</span></p>
+                        <br />
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up
+                            the bulk of the card's content.<span class="moreText">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Sunt laborum possimus suscipit aspernatur, ex fugit ea non
+                  ullam delectus! Facere.dolor sit amet consectetur adipisicing
+                  elit. Sunt laborum possimus suscipit aspernatur, ex fugit ea
+                  non ullam delectus! Facere.</span
+                >
+              </p>
+              <h4 class="read-more-btn">READ MORE..</h4>
+            </div>
+          </div>
         </div>
 
-        <div class="contact" id="contact">
-            <h1>CONTACT US</h1>
+        <br />
+        <!-- show more part start -->
 
-            <p id="contact-header-paragraph">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat perspiciatis eligendi incidunt consequatur vero <br /> culpa illo accusantium, quo maxime earum.
-            </p>
-            <div class="contact-form">
-                <div class="contact-input">
-                    <input type="text" name="name" placeholder="Your Name">
-                    <input type="text" name="email" placeholder="Your Email">
-
-                    <input type="text" name="subject" placeholder="Subject">
-
-
-                </div>
-                <div class="contact-textarea">
-                    <textarea class="textarea" rows="10" cols="192" placeholder="Enter Maessage Here..."></textarea>
-
-
-                </div>
-
+        <div id="moreBlog">
+          <div class="blog-second-row show">
+            <div class="card2">
+              <img
+                class="card-img-top"
+                src="./image/img10.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body2">
+                <h2 class="card-title">Simple Blog Title</h2>
+                <br />
+                <p>Lorem ipsum <span class="writer">dolor sit.</span></p>
+                        <br />
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up
+                            the bulk of the card's content.<span class="moreText">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sunt laborum possimus suscipit aspernatur, ex fugit ea non
+                    ullam delectus! Facere.dolor sit amet consectetur
+                    adipisicing elit. Sunt laborum possimus suscipit aspernatur,
+                    ex fugit ea non ullam delectus! Facere.</span
+                  >
+                </p>
+                <h4 class="read-more-btn">READ MORE..</h4>
+              </div>
             </div>
-
-            <div class="contact-button">
-                <div class="contact-btn">
-                    <a href="">SEND MESSAGE</a>
-                </div>
+            <div class="card2">
+              <img
+                class="card-img-top"
+                src="./image/img16.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body2">
+                <h2 class="card-title">Simple Blog Title</h2>
+                <br />
+                <p>Lorem ipsum <span class="writer">dolor sit.</span></p>
+                        <br />
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up
+                            the bulk of the card's content.<span class="moreText">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sunt laborum possimus suscipit aspernatur, ex fugit ea non
+                    ullam delectus! Facere.dolor sit amet consectetur
+                    adipisicing elit. Sunt laborum possimus suscipit aspernatur,
+                    ex fugit ea non ullam delectus! Facere.</span
+                  >
+                </p>
+                <h4 class="read-more-btn">READ MORE..</h4>
+              </div>
             </div>
+            <div class="card2">
+              <img
+                class="card-img-top"
+                src="./image/img19.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body2">
+                <h2 class="card-title">Simple Blog Title</h2>
+                <br />
+                <p>Lorem ipsum <span class="writer">dolor sit.</span></p>
+                        <br />
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up
+                            the bulk of the card's content.<span class="moreText">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sunt laborum possimus suscipit aspernatur, ex fugit ea non
+                    ullam delectus! Facere.dolor sit amet consectetur
+                    adipisicing elit. Sunt laborum possimus suscipit aspernatur,
+                    ex fugit ea non ullam delectus! Facere.</span
+                  >
+                </p>
+                <h4 class="read-more-btn">READ MORE..</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- sow more part end -->
+
+        <div class="blog-button">
+          <div class="blog-btn">
+            <a id="show-blog-hide-blog">SHOW MORE</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="subscribe">
+        <h1>SUBSCRIBE TO OUR NEWSLETTER</h1>
+        <div class="subscribe-input">
+          <input type="text" name="subscribe" placeholder="Please subscribe" />
+
+          <div class="subscribe-btn">
+            <a href="">SUBSCRIBE</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact" id="contact">
+        <h1>CONTACT US</h1>
+
+        <p id="contact-header-paragraph">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+          perspiciatis eligendi incidunt consequatur vero <br />
+          culpa illo accusantium, quo maxime earum.
+        </p>
+        <div class="contact-form">
+          <div class="contact-input">
+            <input type="text" name="name" placeholder="Your Name" />
+            <input type="text" name="email" placeholder="Your Email" />
+
+            <input type="text" name="subject" placeholder="Subject" />
+          </div>
+          <div class="contact-textarea">
+            <textarea
+              class="textarea"
+              rows="10"
+              cols="192"
+              placeholder="Enter Maessage Here..."
+            ></textarea>
+          </div>
         </div>
 
+        <div class="contact-button">
+          <div class="contact-btn">
+            <a href="">SEND MESSAGE</a>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="footer">
-        <h3>awesomeemail@ourmail.com</h3>
-        <br>
-        <h3>(0)127563829</h3>
-        <br>
-        <div class="footer-icon">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-youtube"></i>
-            <i class="fab fa-whatsapp"></i>
-        </div>
-        <br>
-        <small>©copyright 2021 <span class="molly">Molly</span> all rights reserved.</small>
-    </footer>
+      <h3>awesomeemail@ourmail.com</h3>
+      <br />
+      <h3>(0)127563829</h3>
+      <br />
+      <div class="footer-icon">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-whatsapp"></i>
+      </div>
+      <br />
+      <small
+        >©copyright 2021 <span class="molly">Molly</span> all rights reserved.
+                            </small>
+                            </footer>
+
+                            <script src="index.js"></script>
 </body>
 
 </html>
