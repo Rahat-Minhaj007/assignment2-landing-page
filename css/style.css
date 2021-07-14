@@ -123,7 +123,7 @@ ul li {
 .services h1 {
     text-align: center;
     color: #344750;
-    font-size: 70px;
+    font-size: 60px;
     text-decoration-line: underline;
     text-decoration-color: #344750;
     text-decoration-style: solid;
@@ -197,48 +197,46 @@ ul li {
 }
 
 .service-text {
-    padding-top: 135px;
+    padding-top: 185px;
 }
 
-.make-web-design {
+.make-web-design-container {
     background: linear-gradient(rgba(59, 74, 90, 0.342), #344750), url("../image/banner3.gif");
-    height: 50vh;
+    height: 53vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
-    /* flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(2, 0.3fr);
     justify-content: center;
-    padding-top: 100px;
-    overflow: hidden;
+    padding-top: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.make-web-design-text h1 {
-    padding-top: 15px;
-}
-
-.make-web-design-image {
-    width: 500px;
-    height: 700px;
-}
-
-.make-web-design h1 {
+.make-web-design1-text h1 {
+    padding: 10px 15px;
     color: #FFE501;
 }
 
-.make-web-design p {
+.make-web-design1-text p {
     color: #fff;
 }
 
 .web-design-point-text {
     color: #fff;
     padding-left: 30px;
-    font-size: 20px;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.web-design-point-text p {
+    padding: 15px 0px;
 }
 
 .get-started {
     background: linear-gradient(#FFE501, #FFE501);
-    height: 12vh;
+    height: 15vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -266,7 +264,7 @@ ul li {
 .text-plus {
     border: 2px solid white;
     border-radius: 50%;
-    padding: 0px 9px;
+    padding: 0px 7px;
 }
 
 .portfolio {
@@ -276,7 +274,7 @@ ul li {
 .portfolio h1 {
     text-align: center;
     color: #344750;
-    font-size: 70px;
+    font-size: 60px;
     text-decoration-line: underline;
     text-decoration-color: #344750;
     text-decoration-style: solid;
@@ -554,7 +552,7 @@ p {
 .blog h1 {
     text-align: center;
     color: #344750;
-    font-size: 70px;
+    font-size: 60px;
     padding-top: 80px;
     text-decoration-line: underline;
     text-decoration-color: #344750;
@@ -719,7 +717,7 @@ p {
 .contact h1 {
     text-align: center;
     color: white;
-    font-size: 70px;
+    font-size: 60px;
     padding-top: 80px;
     text-decoration-line: underline;
     text-decoration-color: white;
@@ -740,14 +738,14 @@ p {
 }
 
 .contact-input input {
-    height: 55px;
-    width: 370px;
+    height: 15px;
+    width: 340px;
     margin: 0px 15px;
     border: 1px solid #fff;
     outline: none;
     background: rgba(0, 0, 0, 0.3);
     color: white;
-    padding: 7px;
+    padding: 20px;
     border-radius: 11px;
 }
 
@@ -947,6 +945,19 @@ p {
         color: white;
         padding: 20px;
         margin: 4px 14px;
+    }
+    .make-web-design-container {
+        background: linear-gradient(rgba(59, 74, 90, 0.342), #344750), url("../image/banner3.gif");
+        height: 150vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        padding-top: 120px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
