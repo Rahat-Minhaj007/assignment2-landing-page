@@ -835,6 +835,10 @@ p {
         text-align: center;
         padding-top: 190px;
     }
+    .hamburger-logo {
+        display: flex;
+        justify-content: space-between;
+    }
     .line2:before {
         display: none;
     }
